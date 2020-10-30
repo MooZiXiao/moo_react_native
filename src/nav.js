@@ -28,8 +28,6 @@ function Nav() {
     <NavigationContainer>
       <Stack.Navigator headerMode="none" initialRouteName="Login">
         <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
